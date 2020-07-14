@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>EXPERIMENT</title>    	
+        <link href="experiment.css" rel="stylesheet"/>
+        <script src="experiment.js"></script>
+    </head>
+
+    <body>
+        <div id="experiment">
+            <h1>Experiment</h1>
+            <div id="langMenu">
+                <select name="lang" id="lang" onchange="dispInitial(this.value)" onfocus="this.selectedIndex = -1;">
+                <option value="english">English</option>
+                <option value="hindi">Hindi</option>
+                </select>
+            </div>
+            <div id="content">
+                <h2 id="initialMsg"></h2>
+                <h4 id="subMsg"></h4>
+                <div id="wrd-buttons"></div>
+                <div id="second-portion" class="hide">
+                    <h2 id="secondMsg">Formed Sentence:</h2>
+                    <h4 id="subMsg2">(after selecting words)</h4>
+                    <div id="wordsSel"></div>
+                    <button onclick="clearDisplay()" id="reformBtn">Re-form the Sentence</button><br>
+                    <button onclick="checkCorrectness()" class ="hide" id="checkBtn">Check Correctness of the Sentence</button>
+                    <div id="solution"></div><br>
+                    <button onclick="displaySols()" id="solsBtn" class="hide">GET CORRECT SENTENCE</button>
+                    <div id="answers"></div>
+                </div>
+            </div>
+
+        </div>					
+    </body>
+</html>

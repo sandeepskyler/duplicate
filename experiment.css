@@ -1,0 +1,69 @@
+#langMenu {
+    text-align: center;
+}
+
+select#lang {
+    height: 5vh;
+    width: 20vw;
+    font-size: larger;
+    text-align: center;
+}
+h2 {
+    color: blue;
+    text-align: center;
+}
+
+h4 {
+    color: darkcyan;
+    text-align: center;
+}
+
+#wrd-buttons {
+    text-align: center;
+}
+
+button.wrd-btn {
+    text-align: center;
+    font-size: large;
+    width: 5vw;
+    height: 5vh;
+    margin: 3px;
+}
+
+#wordsSel {
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+button#reformBtn {
+    height: 3vh;
+    margin: 3vh;
+}
+
+button#checkBtn {
+    height: 3vh;
+    margin-bottom: 2vh;
+}
+
+button#solsBtn {
+    height: 3vh;
+    margin: 2vh;
+}
+
+#second-portion{
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+#solution {
+    font-size: xx-large;
+    font-style: bold;
+}
+
+#answers {
+    font-size: large;
+}
